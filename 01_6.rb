@@ -1,11 +1,11 @@
-(1..100).each { |n|
+(1..100).each do |n|
   if n % 15 == 0
-    print "FizzBuzz"
+    puts "FizzBuzz"
   elsif n % 3 == 0
-    print "Fizz "
+    puts "Fizz"
   elsif n % 5 == 0
-    print "Buzz "
+    puts "Buzz"
   else
-    print("%d ", n)
+    puts n
   end
-}
+end
